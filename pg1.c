@@ -5,7 +5,7 @@ int main()
     char *p;
 
     printf("Enter any char: ");
-    scanf("%",&str)
+    scanf("%c",&str);
 
     //assign base address of char array to pointer
     p=str;
